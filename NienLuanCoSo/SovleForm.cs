@@ -12,7 +12,7 @@ using System.Windows;
 
 namespace NienLuanCoSo
 {
-    public partial class Form1 : Form
+    public partial class SovleForm : Form
     {
         private Color color;
         private int size, blocks;
@@ -29,7 +29,7 @@ namespace NienLuanCoSo
 
         public SovleKenKen SovleKenKen { get => sovleKenKen; set => sovleKenKen = value; }
         #endregion
-        public Form1()
+        public SovleForm()
         {
             InitializeComponent();
             this.Color = new Color();

@@ -2,7 +2,7 @@
 
 namespace NienLuanCoSo
 {
-    partial class Form1
+    partial class SovleForm
     {
         /// <summary>
         /// Required designer variable.
@@ -132,7 +132,7 @@ namespace NienLuanCoSo
             0,
             0,
             0});
-            this.numericUpDown1.KeyPress += NumericUpDown1_KeyPress; 
+            this.numericUpDown1.KeyPress += NumericUpDown1_KeyPress;
             // 
             // label3
             // 
@@ -170,14 +170,14 @@ namespace NienLuanCoSo
             this.label1.TabIndex = 0;
             this.label1.Text = "Kích thước ";
             // 
-            // Form1
+            // SovleForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1283, 739);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Name = "Form1";
+            this.Name = "SovleForm";
             this.Text = "KenKen";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -187,7 +187,9 @@ namespace NienLuanCoSo
 
         }
 
-        
+       
+
+
 
 
 

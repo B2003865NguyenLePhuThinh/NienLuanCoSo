@@ -31,11 +31,11 @@ namespace NienLuanCoSo
                     ptb.Width = pnl.Width / col;
                     ptb.Height = pnl.Height / row;
                     ptb.ForeColor = Color.Black;
-                    ptb.Text = y.ToString() + ", " + x.ToString();
+                    ptb.Text = "";
                     ptb.Location = new System.Drawing.Point((pnl.Width / col) * x, (pnl.Height / row) * y);
-                    ptb.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-
+                    ptb.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                     ptb.Margin = new System.Windows.Forms.Padding(0);
+                    ptb.Padding = new System.Windows.Forms.Padding(0);
                     ptb.Click += Ptb_Click;
                     pnl.Controls.Add(ptb);
                     Buttons[y, x] = ptb;

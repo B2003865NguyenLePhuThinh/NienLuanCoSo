@@ -184,15 +184,11 @@ namespace NienLuanCoSo
                         return;
                 }
                 this.ResultMap[r,c] = 0;
-                //IsLastPointBlock(r, c) ? 0 : -1
+              
             }
         }
 
-        public bool IsLastPointBlock(int r, int c)
-        {
-            int blockIndex = this.BlockMap[r,c];
-            return this.LastPointBlock.Points[blockIndex].Equal(new Point(c, r));
-        }
+        
         
 
 
